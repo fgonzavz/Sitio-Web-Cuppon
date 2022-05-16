@@ -1,0 +1,84 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    background-color: #28A745;
+    color: #fff;
+}
+
+.navbar-collapse {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.navbar-brand {
+    font-weight: 500;
+    color: #fff;
+}
+
+.container {
+    padding-top: 20px;
+}
+
+.container-cards {
+    display: flex;
+}
+
+.container-cards .card {
+    width: 30%;
+}
+
+.precio {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.precio p {
+    font-weight: 300;
+}
+
+.precio p>span {
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+h5 {
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.navbar-toggler {
+    background-color: #fff;
+}
+
+.section-formulario {
+    padding: 40px;
+    color: #fff;
+    width: 100%;
+    height: auto;
+    background-color: #28A745;
+}
+
+.section-formulario .formulario h3 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.section-formulario .formulario .form-control {
+    border: 1px solid #DDDDDD;
+    color: #707070;
+}
+
+.btn {
+    width: 112px;
+    height: 50px;
+}
+
+.footer p {
+    text-align: center;
+    font-weight: 300;
+    font-size: 16px;
+}
